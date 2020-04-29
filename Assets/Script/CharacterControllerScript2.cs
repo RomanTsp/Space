@@ -100,11 +100,15 @@ public class CharacterControllerScript2 : MonoBehaviour
         }
         if (col.gameObject.name == "NextLevel")
         {
-            SceneManager.LoadScene("Level3");
+            SceneManager.LoadScene("4-1bossSpace");
         }
         if (col.gameObject.name.Equals("Next"))
 
-            SceneManager.LoadScene("Level4");
+            SceneManager.LoadScene("3-1timer");
+
+        if (col.gameObject.name.Equals("Next5"))
+
+            SceneManager.LoadScene("level5");
 
 
     }

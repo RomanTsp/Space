@@ -73,12 +73,14 @@
     <Compile Include="Assets\boss\Scripts\Player.cs" />
     <Compile Include="Assets\boss\Scripts\Projectile.cs" />
     <Compile Include="Assets\boss\Scripts\WeaponB.cs" />
+    <Compile Include="Assets\boss2.cs" />
     <Compile Include="Assets\demoscript\Meteor.cs" />
     <Compile Include="Assets\demoscript\meteor2.cs" />
     <Compile Include="Assets\demoscript\meteorDown.cs" />
     <Compile Include="Assets\demoscript\NewBehaviourScript.cs" />
     <Compile Include="Assets\demoscript\NewBehaviourScript1.cs" />
     <Compile Include="Assets\GameSkoore.cs" />
+    <Compile Include="Assets\Script\asteroid.cs" />
     <Compile Include="Assets\Script\bg.cs" />
     <Compile Include="Assets\Script\CharacterControllerScript2.cs" />
     <Compile Include="Assets\Script\Destroyer.cs" />
@@ -108,6 +110,7 @@
     <Compile Include="Assets\Script\iaenemy.cs" />
     <Compile Include="Assets\Script\level4agr.cs" />
     <Compile Include="Assets\Script\lovychka.cs" />
+    <Compile Include="Assets\Script\meinacter.cs" />
     <Compile Include="Assets\Script\menu_Game_over.cs" />
     <Compile Include="Assets\Script\offGravity.cs" />
     <Compile Include="Assets\Script\onactivity.cs" />
@@ -123,18 +126,22 @@
     <Compile Include="Assets\Script\rocketMove.cs" />
     <Compile Include="Assets\Script\rosket.cs" />
     <Compile Include="Assets\Script\rosketFire.cs" />
+    <Compile Include="Assets\Script\Script2\Boss1.cs" />
     <Compile Include="Assets\Script\Script2\Bulet_Hero.cs" />
     <Compile Include="Assets\Script\Script2\Bullet.cs" />
     <Compile Include="Assets\Script\Script2\Enemy_lvl2.cs" />
     <Compile Include="Assets\Script\Script2\LevelController.cs" />
     <Compile Include="Assets\Script\Script2\MainMenu.cs" />
+    <Compile Include="Assets\Script\Script2\meteorLife.cs" />
     <Compile Include="Assets\Script\Script2\NextLevel.cs" />
+    <Compile Include="Assets\Script\Script2\playTimer.cs" />
     <Compile Include="Assets\Script\Script2\upspeed.cs" />
     <Compile Include="Assets\Script\Script2\Weapon.cs" />
     <Compile Include="Assets\Script\setinc.cs" />
     <Compile Include="Assets\Script\Star.cs" />
     <Compile Include="Assets\Script\StarGenerator.cs" />
     <Compile Include="Assets\Script\up.cs" />
+    <Compile Include="Assets\Sound\level5_1\BossSpace.cs" />
     <Compile Include="Assets\Sound\level5_1\DamageHandler.cs" />
     <Compile Include="Assets\Sound\level5_1\destroy.cs" />
     <Compile Include="Assets\Sound\level5_1\EnemyShooting.cs" />
@@ -145,8 +152,11 @@
     <Compile Include="Assets\Sound\level5_1\PlayerMovement.cs" />
     <Compile Include="Assets\Sound\level5_1\PlayerShooting.cs" />
     <Compile Include="Assets\Sound\level5_1\SelfDestruct.cs" />
+    <Compile Include="Assets\Sound\level5_1\пила.cs" />
+    <Compile Include="Assets\Sprites\lifeShip.cs" />
     <Compile Include="Assets\Warped Caves\Scenes\level5_1.cs" />
     <Compile Include="Assets\Warped Caves\Scenes\timelet.cs" />
+    <None Include="Assets\fighter\readme.txt" />
     <Reference Include="Cinemachine">
       <HintPath>D:/копия/SpaceDemoRezerv/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>

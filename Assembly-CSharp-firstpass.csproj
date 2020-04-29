@@ -78,6 +78,9 @@
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\heals.cs" />
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\Input.cs" />
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\Swipe.cs" />
+    <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\timer.cs" />
+    <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\timer2.cs" />
+    <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\timerSlider.cs" />
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\UIButtonToAxis.cs" />
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\UIButtonToButton.cs" />
     <Compile Include="Assets\plugins\LeoLuz\Virtual Plug and Play Joystick\Scripts\vardump.cs" />

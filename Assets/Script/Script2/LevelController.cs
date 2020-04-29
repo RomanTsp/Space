@@ -23,7 +23,7 @@ public class LevelController : MonoBehaviour {
 	public void IsEndGame()
 
     {
-        if (sceneIndex == 5)
+        if (sceneIndex == 6)
         {
             Invoke("LoadMainMenu", 1f);
         }
